@@ -1,0 +1,821 @@
+
+	.mediaViewInfo {
+		--web-view-name: Artboard 1;
+		--web-view-id: Artboard_1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Artboard_1;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Artboard_1 {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Artboard 1;
+		--web-view-id: Artboard_1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+
+	#Layer_1 {
+		position: absolute;
+		width: 3840px;
+		height: 1080px;
+		left: -1920px;
+		top: 0px;
+		display: none;
+		overflow: visible;
+	}
+	#Rect_ngulo_30 {
+		position: absolute;
+		width: 3840px;
+		height: 1080px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Layer_2 {
+		position: absolute;
+		width: 1920px;
+		height: 751px;
+		left: 0px;
+		top: -1px;
+		overflow: visible;
+	}
+	.Rect_ngulo_31 {
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		height: 170px;
+		left: 384.5px;
+		top: 140.5px;
+	}
+	.Rect_ngulo_32 {
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		height: 170px;
+		left: 613.25px;
+		top: 140.5px;
+	}
+	.Rect_ngulo_33 {
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		height: 170px;
+		left: 384.5px;
+		top: 321.5px;
+	}
+	.Rect_ngulo_34 {
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		height: 170px;
+		left: 613.25px;
+		top: 321.5px;
+	}
+	.Rect_ngulo_35 {
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		height: 170px;
+		left: 842px;
+		top: 140.5px;
+	}
+	.Rect_ngulo_36 {
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		height: 170px;
+		left: 1070.75px;
+		top: 140.5px;
+	}
+	.Rect_ngulo_37 {
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		height: 170px;
+		left: 1299.5px;
+		top: 140.5px;
+	}
+	.Rect_ngulo_38 {
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		height: 170px;
+		left: 842px;
+		top: 321.5px;
+	}
+	.Rect_ngulo_39 {
+		position: absolute;
+		overflow: visible;
+		width: 220px;
+		height: 170px;
+		left: 1070.75px;
+		top: 321.5px;
+	}
+	#Rect_ngulo_40 {
+		position: absolute;
+		width: 261px;
+		height: 171px;
+		left: 382px;
+		top: 580px;
+		overflow: visible;
+	}
+	#Rect_ngulo_41 {
+		position: absolute;
+		width: 261px;
+		height: 171px;
+		left: 651px;
+		top: 580px;
+		overflow: visible;
+	}
+	#Rect_ngulo_42 {
+		position: absolute;
+		width: 261px;
+		height: 171px;
+		left: 922px;
+		top: 580px;
+		overflow: visible;
+	}
+	#Rect_ngulo_43 {
+		position: absolute;
+		width: 261px;
+		height: 171px;
+		left: 1191px;
+		top: 580px;
+		overflow: visible;
+	}
+	#Rect_ngulo_44 {
+		position: absolute;
+		width: 60px;
+		height: 171px;
+		left: 1462px;
+		top: 580px;
+		overflow: visible;
+	}
+	.L_nea_4 {
+		overflow: visible;
+		position: absolute;
+		width: 3px;
+		height: 35px;
+		left: 375.5px;
+		top: 535.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_5 {
+		overflow: visible;
+		position: absolute;
+		width: 3px;
+		height: 35px;
+		left: 375.5px;
+		top: 91px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_ltimos_subidos {
+		position: absolute;
+		left: 391.873px;
+		top: 540.872px;
+		overflow: visible;
+		width: 130px;
+		white-space: nowrap;
+		line-height: 21.600000381469727px;
+		margin-top: -1.8000001907348633px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(112,112,112,1);
+	}
+	#Mis_Bunkers {
+		position: absolute;
+		left: 391.873px;
+		top: 95.872px;
+		overflow: visible;
+		width: 100px;
+		white-space: nowrap;
+		line-height: 21.600000381469727px;
+		margin-top: -1.8000001907348633px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(112,112,112,1);
+	}
+	.Rect_ngulo_45 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Publicidad {
+		position: absolute;
+		left: 408.681px;
+		top: 208.064px;
+		overflow: visible;
+		width: 118px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Tutoriales_Bunkey {
+		position: absolute;
+		left: 636.285px;
+		top: 190.383px;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Agencia_Simple {
+		position: absolute;
+		left: 864.71px;
+		top: 208.702px;
+		overflow: visible;
+		width: 173px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Presentaciones_y_Charlas_ {
+		position: absolute;
+		left: 1091.872px;
+		top: 190.66px;
+		overflow: visible;
+		width: 174px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Presupuestos_ {
+		position: absolute;
+		left: 1320.553px;
+		top: 208.596px;
+		overflow: visible;
+		width: 160px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	.Rect_ngulo_46 {
+		position: absolute;
+		overflow: visible;
+		width: 285px;
+		height: 47px;
+		left: 1237px;
+		top: 8px;
+	}
+	#Sebasti_n {
+		position: absolute;
+		left: 1409.553px;
+		top: 19.596px;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -9.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	#Material_de_Marca {
+		position: absolute;
+		left: 408.702px;
+		top: 370.702px;
+		overflow: visible;
+		width: 126px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Estudios {
+		position: absolute;
+		left: 636.638px;
+		top: 389.425px;
+		overflow: visible;
+		width: 97px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Banco_de_Im_genes_y_Videos {
+		position: absolute;
+		left: 865.064px;
+		top: 353.489px;
+		overflow: visible;
+		width: 129px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Proyectos {
+		position: absolute;
+		left: 1092.17px;
+		top: 389.276px;
+		overflow: visible;
+		width: 112px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Rect_ngulo_47 {
+		position: absolute;
+		width: 178px;
+		height: 29.667px;
+		left: 360px;
+		top: 17px;
+		overflow: visible;
+	}
+	.Trazado_18 {
+		overflow: visible;
+		position: absolute;
+		width: 8.863px;
+		height: 7.226px;
+		left: 1193.111px;
+		top: 30.206px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_19 {
+		overflow: visible;
+		position: absolute;
+		width: 20.361px;
+		height: 20.362px;
+		left: 1187.362px;
+		top: 23.638px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_20 {
+		overflow: visible;
+		position: absolute;
+		width: 20.703px;
+		height: 21.868px;
+		left: 1141.297px;
+		top: 22.068px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_21 {
+		overflow: visible;
+		position: absolute;
+		width: 8.754px;
+		height: 8.753px;
+		left: 1101.41px;
+		top: 29.049px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_22 {
+		overflow: visible;
+		position: absolute;
+		width: 20.426px;
+		height: 20.425px;
+		left: 1095.574px;
+		top: 23.213px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_23 {
+		overflow: visible;
+		position: absolute;
+		width: 20.028px;
+		height: 18.916px;
+		left: 1049.972px;
+		top: 24.819px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Rect_ngulo_48 {
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		height: 25px;
+		left: 1454px;
+		top: 96px;
+	}
+	.Rect_ngulo_49 {
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		height: 25px;
+		left: 1504px;
+		top: 96px;
+	}
+	.Rect_ngulo_50 {
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		height: 25px;
+		left: 1479px;
+		top: 96px;
+	}
+	.Rect_ngulo_51 {
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		height: 25px;
+		left: 1479px;
+		top: 541px;
+	}
+	.Rect_ngulo_52 {
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		height: 25px;
+		left: 1504px;
+		top: 541px;
+	}
+	.Rect_ngulo_53 {
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		height: 25px;
+		left: 1454px;
+		top: 541px;
+	}
+	.Trazado_24 {
+		overflow: visible;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 1542px;
+		top: 656px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_25 {
+		overflow: visible;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 342px;
+		top: 656px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Rect_ngulo_54 {
+		position: absolute;
+		overflow: visible;
+		width: 216px;
+		height: 28px;
+		left: 573px;
+		top: 19px;
+	}
+	.Trazado_26 {
+		overflow: visible;
+		position: absolute;
+		width: 13.147px;
+		height: 8.857px;
+		left: 1488.112px;
+		top: 29px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Rect_ngulo_55 {
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		height: 33px;
+		left: 1281px;
+		top: 15px;
+	}
+	.Elipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 1369px;
+		top: 17px;
+	}
+	.Trazado_27 {
+		overflow: visible;
+		position: absolute;
+		width: 14.058px;
+		height: 14px;
+		left: 1460px;
+		top: 102px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Grupo_1 {
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		left: 1485px;
+		top: 102px;
+		overflow: visible;
+	}
+	.Rect_ngulo_56 {
+		position: absolute;
+		overflow: visible;
+		width: 6px;
+		height: 6px;
+		left: 0px;
+		top: 0px;
+	}
+	.Rect_ngulo_57 {
+		position: absolute;
+		overflow: visible;
+		width: 6px;
+		height: 6px;
+		left: 8px;
+		top: 0px;
+	}
+	.Rect_ngulo_58 {
+		position: absolute;
+		overflow: visible;
+		width: 6px;
+		height: 6px;
+		left: 8px;
+		top: 8px;
+	}
+	.Rect_ngulo_59 {
+		position: absolute;
+		overflow: visible;
+		width: 6px;
+		height: 6px;
+		left: 0px;
+		top: 8px;
+	}
+	#Grupo_2 {
+		position: absolute;
+		width: 14px;
+		height: 12px;
+		left: 1509px;
+		top: 102px;
+		overflow: visible;
+	}
+	.L_nea_6 {
+		overflow: visible;
+		position: absolute;
+		width: 14px;
+		height: 2px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_7 {
+		overflow: visible;
+		position: absolute;
+		width: 14px;
+		height: 2px;
+		left: 0px;
+		top: 4px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_8 {
+		overflow: visible;
+		position: absolute;
+		width: 14px;
+		height: 2px;
+		left: 0px;
+		top: 8px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_9 {
+		overflow: visible;
+		position: absolute;
+		width: 14px;
+		height: 2px;
+		left: 0px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_28 {
+		overflow: visible;
+		position: absolute;
+		width: 14.058px;
+		height: 14px;
+		left: 1460px;
+		top: 548px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Grupo_3 {
+		position: absolute;
+		width: 12px;
+		height: 12px;
+		left: 1485px;
+		top: 548px;
+		overflow: visible;
+	}
+	.Rect_ngulo_60 {
+		position: absolute;
+		overflow: visible;
+		width: 6px;
+		height: 6px;
+		left: 0px;
+		top: 0px;
+	}
+	.Rect_ngulo_61 {
+		position: absolute;
+		overflow: visible;
+		width: 6px;
+		height: 6px;
+		left: 8px;
+		top: 0px;
+	}
+	.Rect_ngulo_62 {
+		position: absolute;
+		overflow: visible;
+		width: 6px;
+		height: 6px;
+		left: 8px;
+		top: 8px;
+	}
+	.Rect_ngulo_63 {
+		position: absolute;
+		overflow: visible;
+		width: 6px;
+		height: 6px;
+		left: 0px;
+		top: 8px;
+	}
+	#Grupo_4 {
+		position: absolute;
+		width: 14px;
+		height: 12px;
+		left: 1509px;
+		top: 548px;
+		overflow: visible;
+	}
+	.L_nea_10 {
+		overflow: visible;
+		position: absolute;
+		width: 14px;
+		height: 2px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_11 {
+		overflow: visible;
+		position: absolute;
+		width: 14px;
+		height: 2px;
+		left: 0px;
+		top: 4px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_12 {
+		overflow: visible;
+		position: absolute;
+		width: 14px;
+		height: 2px;
+		left: 0px;
+		top: 8px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_13 {
+		overflow: visible;
+		position: absolute;
+		width: 14px;
+		height: 2px;
+		left: 0px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rect_ngulo_64 {
+		position: absolute;
+		width: 66.919px;
+		height: 169px;
+		left: 476.54px;
+		top: 581px;
+		overflow: visible;
+	}
+	.Rect_ngulo_65 {
+		position: absolute;
+		overflow: visible;
+		width: 10px;
+		height: 10px;
+		left: 102px;
+		top: 213px;
+	}
+	.Rect_ngulo_66 {
+		position: absolute;
+		overflow: visible;
+		width: 10px;
+		height: 10px;
+		left: 112px;
+		top: 213px;
+	}
+	.Rect_ngulo_67 {
+		position: absolute;
+		overflow: visible;
+		width: 10px;
+		height: 10px;
+		left: 102px;
+		top: 223px;
+	}
+	.Rect_ngulo_68 {
+		position: absolute;
+		overflow: visible;
+		width: 10px;
+		height: 10px;
+		left: 112px;
+		top: 223px;
+	}
+	#Rect_ngulo_69 {
+		position: absolute;
+		width: 118.347px;
+		height: 169px;
+		left: 722px;
+		top: 581px;
+		overflow: visible;
+	}
+	#Rect_ngulo_70 {
+		position: absolute;
+		width: 170px;
+		height: 170px;
+		left: 977px;
+		top: 580px;
+		overflow: visible;
+	}
+	#Rect_ngulo_71 {
+		position: absolute;
+		width: 141.667px;
+		height: 170px;
+		left: 1250px;
+		top: 581px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Artboard_2.html;
+		cursor: pointer;
+	}
+	#Ingresa_un_campo_de_b_squeda {
+		position: absolute;
+		left: 580px;
+		top: 26px;
+		overflow: visible;
+		width: 184px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(112,112,112,1);
+	}
+
