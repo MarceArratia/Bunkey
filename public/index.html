@@ -28,11 +28,23 @@
       :root {
         --web-view-ids: Artboard_1;
       }
-     
+      #Artboard_2 {
+        z-index: -1;
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Artboard 2;
+		--web-view-id: Artboard_2;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
       #Artboard_1 {
+        z-index: -1;
         margin-top: 33px;
         position: absolute;
-        width: 1920px;
+        width: 100%;
         height: 1080px;
         background-color: rgba(255,255,255,1);
         overflow: hidden;
@@ -46,25 +58,41 @@
       
       }
       #Layer_1 {
-        position: absolute;
-        width: 3840px;
-        height: 1080px;
-        left: -1920px;
-        top: 0px;
-        display: none;
-        overflow: visible;
-      }
+		position: absolute;
+		width: 3840px;
+		height: 1080px;
+		left: -1920px;
+		top: 0.5px;
+		display: none;
+		overflow: visible;
+  }
+  #Rect_ngulo_1 {
+		position: absolute;
+		width: 3840px;
+		height: 1080px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
       #Rect_ngulo_30 {
         position: absolute;
-        width: 3840px;
+        width: 90%;
         height: 1080px;
         left: 0px;
         top: 0px;
         overflow: visible;
       }
+      .Trazado_30 {
+		overflow: visible;
+		position: absolute;
+		width: 1128px;
+		height: 496px;
+		left: 357px;
+		top: 147px;
+		transform: matrix(1,0,0,1,0,0);
+	}
       #Layer_2 {
-       
-        width: 1920px;
+
         height: 751px;
         left: 0px;
         top: -1px;
@@ -86,6 +114,14 @@
         left: 613.25px;
         top: 140.5px;
       }
+      #Rect_ngulo_3 {
+		position: absolute;
+		width: 261px;
+		height: 171px;
+		left: 379px;
+		top: 0px;
+		overflow: visible;
+	}
       .Rect_ngulo_33 {
         position: absolute;
         overflow: visible;
@@ -142,6 +178,112 @@
         left: 1070.75px;
         top: 321.5px;
       }
+      .Trazado_29 {
+		overflow: visible;
+		position: absolute;
+		width: 1920px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		
+	}
+	.Rect_ngulo_14 {
+		position: absolute;
+		overflow: visible;
+		width: 285px;
+		height: 47px;
+		left: 1234px;
+		top: 78px;
+	}
+      #Grupo_5 {
+		position: absolute;
+		width: 1920px;
+		height: 60px;
+		left: 0px;
+		top: 70px;
+		overflow: visible;
+	}
+	#Grupo_6 {
+		position: absolute;
+		width: 1920px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+      #Rect_ngulo_4 {
+		position: absolute;
+		width: 261px;
+		height: 171px;
+		left: 648px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rect_ngulo_5 {
+		position: absolute;
+		width: 261px;
+		height: 171px;
+		left: 919px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rect_ngulo_6 {
+		position: absolute;
+		width: 261px;
+		height: 171px;
+		left: 1188px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rect_ngulo_7 {
+		position: absolute;
+		width: 60px;
+		height: 171px;
+		left: 1459px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rect_ngulo_8 {
+		position: absolute;
+		width: 66.919px;
+		height: 169px;
+		left: 473.54px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Rect_ngulo_9 {
+		position: absolute;
+		width: 118.347px;
+		height: 169px;
+		left: 719px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Rect_ngulo_10 {
+		position: absolute;
+		width: 170px;
+		height: 170px;
+		left: 974px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rect_ngulo_11 {
+		position: absolute;
+		width: 141.667px;
+		height: 170px;
+		left: 1247px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Rect_ngulo_12 {
+		position: absolute;
+		width: 537.257px;
+		height: 359.607px;
+		left: 395.367px;
+		top: 209.763px;
+    overflow: visible;
+    background-image: url(./img/Rect_ngulo_12.png);
+	}
       #Rect_ngulo_40 {
         position: absolute;
         width: 261px;
@@ -341,6 +483,8 @@
         font-weight: normal;
         font-size: 16px;
         color: rgba(112,112,112,1);
+        margin-top: 3.5%;
+
       }
       #Material_de_Marca {
         position: absolute;
@@ -404,6 +548,764 @@
         font-size: 25px;
         color: rgba(255,255,255,1);
       }
+      .Trazado_1 {
+		overflow: visible;
+		position: absolute;
+		width: 8.863px;
+		height: 7.226px;
+		left: 1190.111px;
+		top: 100.206px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_2 {
+		overflow: visible;
+		position: absolute;
+		width: 20.361px;
+		height: 20.362px;
+		left: 1184.362px;
+		top: 93.638px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_3 {
+		overflow: visible;
+		position: absolute;
+		width: 20.703px;
+		height: 21.868px;
+		left: 1138.297px;
+		top: 92.068px;
+		transform: matrix(1,0,0,1,0,0);
+  }
+  .Rect_ngulo_16 {
+		position: absolute;
+		overflow: visible;
+		width: 216px;
+		height: 28px;
+		left: 570px;
+		top: 89px;
+  }
+  .Elipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 30px;
+		left: 1366px;
+		top: 87px;
+	}
+	.Trazado_8 {
+		overflow: visible;
+		position: absolute;
+		width: 5.895px;
+		height: 8.368px;
+		left: 431.48px;
+		top: 188.117px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_9 {
+		overflow: visible;
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		left: 425px;
+		top: 183.3px;
+		transform: matrix(1,0,0,1,0,0);
+  }
+  #Asset {
+		position: absolute;
+		left: 962.936px;
+		top: 211px;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+  }
+  #Tags {
+		position: absolute;
+		left: 962.936px;
+		top: 382px;
+		overflow: visible;
+		width: 33px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Derechos_de_uso__Duraci_n_ {
+		position: absolute;
+		left: 962.936px;
+		top: 539px;
+		overflow: visible;
+		width: 186px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+  }
+  .Rect_ngulo_18 {
+		position: absolute;
+		overflow: visible;
+		width: 540px;
+		height: 33px;
+		left: 964.5px;
+		top: 240.5px;
+  }
+  #tag_1 {
+		position: absolute;
+		left: 978.957px;
+		top: 417.213px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+  }
+  .Rect_ngulo_21 {
+		position: absolute;
+		overflow: visible;
+		width: 94px;
+		height: 33px;
+		left: 964.5px;
+		top: 567.5px;
+	}
+	#Indefinido {
+		position: absolute;
+		left: 977.576px;
+		top: 571.884px;
+		overflow: visible;
+		width: 67px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+  }
+  #ID03_03_2020 {
+		position: absolute;
+		left: 1238.995px;
+		top: 571.884px;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	.Rect_ngulo_23 {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 33px;
+		left: 964.5px;
+		top: 454.5px;
+	}
+	.Rect_ngulo_24 {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 33px;
+		left: 1037.75px;
+		top: 412.5px;
+	}
+	.Rect_ngulo_25 {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 33px;
+		left: 1038.5px;
+		top: 454.5px;
+	}
+	.Rect_ngulo_26 {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 33px;
+		left: 1111px;
+		top: 412.5px;
+	}
+	.Rect_ngulo_27 {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 33px;
+		left: 1112.5px;
+		top: 454.5px;
+	}
+	#tag_1_b {
+		position: absolute;
+		left: 978.957px;
+		top: 459.213px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+  }
+  #tag_1_ca {
+		position: absolute;
+		left: 1052.457px;
+		top: 417.213px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#tag_1_cb {
+		position: absolute;
+		left: 1053.457px;
+		top: 459.213px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#tag_1_cc {
+		position: absolute;
+		left: 1125.957px;
+		top: 417.213px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	.Rect_ngulo_28 {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 33px;
+		left: 1184.25px;
+		top: 412.5px;
+	}
+	#tag_1_cd {
+		position: absolute;
+		left: 1199.457px;
+		top: 417.213px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	.Rect_ngulo_29 {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 33px;
+		left: 1257.5px;
+		top: 412.5px;
+	}
+	#tag_1_ce {
+		position: absolute;
+		left: 1272.957px;
+		top: 417.213px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#tag_1_cf {
+		position: absolute;
+		left: 1127.957px;
+		top: 459.213px;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	.L_nea_1 {
+		overflow: visible;
+		position: absolute;
+		width: 539px;
+		height: 1px;
+		left: 964px;
+		top: 620px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_2 {
+		overflow: visible;
+		position: absolute;
+		width: 539px;
+		height: 1px;
+		left: 964px;
+		top: 512px;
+		transform: matrix(1,0,0,1,0,0);
+  }
+  #Grupo_112 {
+		position: absolute;
+		width: 19.579px;
+		height: 18px;
+		left: 964.339px;
+		top: 647.075px;
+		overflow: visible;
+	}
+	.L_nea_12 {
+		overflow: visible;
+		position: absolute;
+		width: 21.579px;
+		height: 2px;
+		left: 0px;
+		top: 18px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_59 {
+		overflow: visible;
+		position: absolute;
+		width: 16.209px;
+		height: 16.734px;
+		left: 3.574px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Grupo_113 {
+		position: absolute;
+		width: 18.351px;
+		height: 15.73px;
+		left: 999.649px;
+		top: 648.277px;
+		overflow: visible;
+	}
+	.Elipse_9 {
+		position: absolute;
+		overflow: visible;
+		width: 8.292px;
+		height: 8.292px;
+		left: 0px;
+		top: 4.719px;
+	}
+	.Elipse_10 {
+		position: absolute;
+		overflow: visible;
+		width: 6.195px;
+		height: 6.195px;
+		left: 14.156px;
+		top: 0px;
+	}
+	.Elipse_11 {
+		position: absolute;
+		overflow: visible;
+		width: 6.195px;
+		height: 6.195px;
+		left: 14.156px;
+		top: 11.535px;
+	}
+	.L_nea_13 {
+		overflow: visible;
+		position: absolute;
+		width: 10.874px;
+		height: 6.441px;
+		left: 5.934px;
+		top: 2.621px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_14 {
+		overflow: visible;
+		position: absolute;
+		width: 10.874px;
+		height: 6.441px;
+		left: 5.934px;
+		top: 9.437px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_12 {
+		overflow: visible;
+		position: absolute;
+		width: 24.125px;
+		height: 23.039px;
+		left: 1034.709px;
+		top: 643.961px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Grupo_114 {
+		position: absolute;
+		width: 19.005px;
+		height: 19px;
+		left: 1074.157px;
+		top: 646.968px;
+		overflow: visible;
+	}
+	.Trazado_118 {
+		overflow: visible;
+		position: absolute;
+		width: 9.146px;
+		height: 8.966px;
+		left: 0px;
+		top: 12.033px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_119 {
+		overflow: visible;
+		position: absolute;
+		width: 9.081px;
+		height: 8.967px;
+		left: 11.918px;
+		top: 12.033px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_120 {
+		overflow: visible;
+		position: absolute;
+		width: 9.085px;
+		height: 8.967px;
+		left: 11.92px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_121 {
+		overflow: visible;
+		position: absolute;
+		width: 9.146px;
+		height: 8.966px;
+		left: 0px;
+		top: 0.001px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_22 {
+		overflow: visible;
+		position: absolute;
+		width: 20.554px;
+		height: 20.554px;
+		left: 0.566px;
+		top: 0.566px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.L_nea_23 {
+		overflow: visible;
+		position: absolute;
+		width: 20.712px;
+		height: 20.712px;
+		left: 0.583px;
+		top: 0.533px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_13 {
+		overflow: visible;
+		position: absolute;
+		width: 6.908px;
+		height: 11.741px;
+		left: 1117.652px;
+		top: 655.248px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_14 {
+		overflow: visible;
+		position: absolute;
+		width: 25.787px;
+		height: 17.268px;
+		left: 1108.213px;
+		top: 646.729px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_15 {
+		overflow: visible;
+		position: absolute;
+		width: 21.912px;
+		height: 22.825px;
+		left: 1150.198px;
+		top: 645.175px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_16 {
+		overflow: visible;
+		position: absolute;
+		width: 22.903px;
+		height: 22.494px;
+		left: 1190.097px;
+		top: 645.389px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_17 {
+		overflow: visible;
+		position: absolute;
+		width: 20.487px;
+		height: 25.48px;
+		left: 1231.513px;
+		top: 643.264px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ingresa_un_campo_de_b_squeda {
+		position: absolute;
+		left: 580px;
+		top: 27.5px;
+		overflow: visible;
+		width: 184px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+    color: rgba(112,112,112,1);
+    margin-top: 3.5%;
+
+	}
+	.L_nea_3 {
+		overflow: visible;
+		position: absolute;
+		width: 539px;
+		height: 1px;
+		left: 964px;
+		top: 360px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Rect_ngulo_22 {
+		position: absolute;
+		overflow: visible;
+		width: 106px;
+		height: 33px;
+		left: 1226.5px;
+		top: 567.5px;
+	}
+  #IMG_0220 {
+		position: absolute;
+		left: 978.957px;
+		top: 245.213px;
+		overflow: visible;
+		width: 69px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#_jpg {
+		position: absolute;
+		left: 978.957px;
+		top: 317.213px;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	.Rect_ngulo_19 {
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		height: 33px;
+		left: 964.5px;
+		top: 312.5px;
+	}
+	.Rect_ngulo_20 {
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		height: 33px;
+		left: 964.5px;
+		top: 412.5px;
+	}
+	#Fecha_de_Subida {
+		position: absolute;
+		left: 1224.936px;
+		top: 539px;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Extensi_n {
+		position: absolute;
+		left: 962.936px;
+		top: 284px;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		line-height: 18px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+  #_Banco_de_Im_genes_y_Videos_Fo {
+		position: absolute;
+		left: 393.936px;
+		top: 580px;
+		overflow: visible;
+		width: 251px;
+		white-space: nowrap;
+		line-height: 35px;
+		margin-top: -11px;
+		text-align: left;
+		font-family: Roboto-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+  #x {
+		position: absolute;
+		left: 1494px;
+		top: 174.745px;
+		overflow: visible;
+		width: 12px;
+		white-space: nowrap;
+		line-height: 32.31298065185547px;
+		margin-top: -4.616140365600586px;
+		text-align: left;
+		font-family: Roboto-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23.080699920654297px;
+		color: rgba(255,255,255,1);
+	}
+	.Trazado_10 {
+		overflow: visible;
+		position: absolute;
+		width: 5.895px;
+		height: 8.369px;
+		left: 399.625px;
+		top: 188.115px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_11 {
+		overflow: visible;
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		left: 394px;
+		top: 183.3px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_7 {
+		overflow: visible;
+		position: absolute;
+		width: 13.147px;
+		height: 8.857px;
+		left: 1485.112px;
+		top: 99px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Rect_ngulo_17 {
+		position: absolute;
+		overflow: visible;
+		width: 33px;
+		height: 33px;
+		left: 1278px;
+		top: 85px;
+	}
+	.Trazado_4 {
+		overflow: visible;
+		position: absolute;
+		width: 8.754px;
+		height: 8.753px;
+		left: 1098.41px;
+		top: 99.049px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_5 {
+		overflow: visible;
+		position: absolute;
+		width: 20.426px;
+		height: 20.425px;
+		left: 1092.574px;
+		top: 93.213px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Trazado_6 {
+		overflow: visible;
+		position: absolute;
+		width: 20.028px;
+		height: 18.916px;
+		left: 1046.972px;
+		top: 94.818px;
+		transform: matrix(1,0,0,1,0,0);
+	}
       #Rect_ngulo_47 {
         position: absolute;
         width: 178px;
@@ -816,23 +1718,9 @@
         overflow: visible;
         --web-animation: fadein 0.3s ease-out;
         --web-action-type: page;
-        --web-action-target: Artboard_2.html;
         cursor: pointer;
       }
-      #Ingresa_un_campo_de_b_squeda {
-        position: absolute;
-        left: 580px;
-        top: 26px;
-        overflow: visible;
-        width: 184px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Segoe UI;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        color: rgba(112,112,112,1);
-      }
+
     </style>
     <script id="applicationScript">
     ///////////////////////////////////////
